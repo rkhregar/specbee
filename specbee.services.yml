@@ -1,0 +1,4 @@
+services:
+  specbee.date_time_custom_services:
+    class: Drupal\specbee\DateTimeCustomService
+    arguments: ['@config.factory', '@datetime.time', '@date.formatter']

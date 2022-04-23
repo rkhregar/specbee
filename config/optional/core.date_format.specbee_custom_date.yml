@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: specbee_custom_date
+label: 'Specbee Custom Date format'
+locked: true
+pattern: 'dS M Y - h:i A'

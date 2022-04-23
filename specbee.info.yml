@@ -1,0 +1,6 @@
+name: Specbee Assignment
+description: custom module for specbee assignment
+type: module
+core_version_requirement: ^8 || ^9
+packge: custom
+version: 1.0.2

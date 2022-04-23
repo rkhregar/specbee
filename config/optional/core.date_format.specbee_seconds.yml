@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: specbee_seconds
+label: Specbee Seconds
+locked: true
+pattern: s

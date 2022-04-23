@@ -1,0 +1,9 @@
+specbee.admin_config_form:  
+  path: '/admin/config/specbee/adminsettings'  
+  defaults:  
+    _form: '\Drupal\specbee\Form\DateTimeForm'  
+    _title: 'Specbee Date Time Form'  
+  requirements:  
+    _permission: 'access administration pages'  
+  options:  
+    _admin_route: TRUE  

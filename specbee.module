@@ -1,0 +1,16 @@
+<?php
+
+
+/**
+ * Implements hook_theme().
+ */
+
+function specbee_theme($existing, $type, $theme, $path) {
+    return [
+      'specbee_date_time_block' => [
+        'variables' => ['data' => NULL],
+        'template' => 'block--specbee-time-date-block',
+      ],
+    ];
+  }
+  
