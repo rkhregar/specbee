@@ -9,14 +9,14 @@ Implementation details:
         City - text field
         Timezone - select list
         Options in the select list
-        America/Chicago
-        America/New_York
-        Asia/Tokyo
-        Asia/Dubai
-        Asia/Kolkata
-        Europe/Amsterdam
-        Europe/Oslo
-        Europe/London
+                America/Chicago
+                America/New_York
+                Asia/Tokyo
+                Asia/Dubai
+                Asia/Kolkata
+                Europe/Amsterdam
+                Europe/Oslo
+                Europe/London
 
 Create a service that will return the current time based on the time zone selection in the above form.
 Time should be in the format 25th Oct 2019 - 10:30 PM
