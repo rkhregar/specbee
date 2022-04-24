@@ -59,6 +59,8 @@ class TimeDateBlock extends BlockBase implements ContainerFactoryPluginInterface
             '#data' => $data,
             '#theme' => 'specbee_date_time_block',
             '#cache' => array(
+                'contexts'=>[],
+                'tags' => ['config:specbee.adminsettings'],
                 'max-age' => 60 - $this->specbee->getSeconds(),
             ),
         ];
