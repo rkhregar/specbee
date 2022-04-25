@@ -51,7 +51,6 @@ class TimeDateBlock extends BlockBase implements ContainerFactoryPluginInterface
     {   
         $data = [
             'Date and Time'=> $this->specbee->getDate(),
-            'Time zone'=> $this->specbee->getTimeZone(),
             'Country' => $this->specbee->getCountry(),
             'City' => $this->specbee->getCity(),
         ];
