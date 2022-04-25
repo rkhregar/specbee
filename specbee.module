@@ -14,3 +14,15 @@ function specbee_theme() {
     ];
   }
   
+/**
+ * Implements hook_preprocess_block().
+ */
+
+// function specbee_preprocess_block(&$variables) {
+//   if($variables['plugin_id'] == 'Specbee_Time_Date_block'){
+//     $cdate = \Drupal::service('specbee.date_time_custom_services')->getDate();
+//     $variables['content']['#data']['Date'] = $cdate;
+//     $variables['elements']['content']['#data']['Date'] = $cdate;
+//     dpm($variables);
+//   }
+// }
