@@ -12,7 +12,7 @@ use Drupal\specbee\DateTimeCustomService;
  *
  * @Block(
  *   id = "Specbee_Time_Date_block",
- *   admin_label = @Translation("Timezone based Time Date"),
+ *   admin_label = @Translation("Time zone based Time and Date"),
  * )
  */
 
@@ -50,8 +50,8 @@ class TimeDateBlock extends BlockBase implements ContainerFactoryPluginInterface
     public function build()
     {   
         $data = [
-            'Date'=> $this->specbee->getDate(),
-            'Timezone'=> $this->specbee->getTimeZone(),
+            'Date and Time'=> $this->specbee->getDate(),
+            'Time zone'=> $this->specbee->getTimeZone(),
             'Country' => $this->specbee->getCountry(),
             'City' => $this->specbee->getCity(),
         ];

@@ -46,7 +46,7 @@ class DateTimeForm extends ConfigFormBase {
     );
     $form['specbee_timezone'] = array (
         '#type' => 'select',
-        '#title' => ('Timezone'),
+        '#title' => ('Time zone'),
         '#default_value' => $config->get('specbee_timezone'),
         '#options' => array(
           'America/Chicago' => t('America/Chicago'),
